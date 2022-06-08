@@ -1,0 +1,32 @@
+<div>
+  <h1>Uppercase Pipe</h1>
+  <b>{{title | uppercase}}</b><br />
+
+  <h1>Lowercase Pipe</h1>
+  <b>{{title | lowercase}}</b>
+
+  <h1>Titlecase Pipe</h1>
+  <b>{{title | titlecase}}</b>
+
+  <h1>Currency Pipe</h1>
+  <b>{{6589.23 | currency}}</b><br>
+  <b>{{money|currency:'INR'}}</b><br />
+  <b>{{money|currency:'INR':'code'}}</b>
+
+  <h1>Date pipe</h1>
+  <b>{{todaydate | date}}</b><br />
+  <b>{{todaydate | date:'y/M/d'}}</b><br />
+  <b>{{todaydate | date|uppercase}}</b><br />
+  <b>{{todaydate | date:'fullDate'}}</b><br />
+  <b>{{todaydate | date:'shortTime'}}</b>
+
+  <h1>Decimal Pipe</h1>
+  <b>{{ 454.78787814 | number: '3.4-5' }}</b><br>
+  <b>{{ 454.78787814 | number: '4.2-7' }}</b>
+</div>
+
+  <h1>Json Pipe</h1>
+  <b>{{ jsonval | json }}</b>
+  <h1>Slice Pipe</h1>
+  <b>{{months | slice:2:6}}</b>
+   
